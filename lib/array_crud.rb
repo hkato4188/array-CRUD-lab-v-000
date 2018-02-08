@@ -1,10 +1,9 @@
 def create_an_empty_array
   Array.new
 end
-x = 4
-y = "yes"
-def create_an_array(x, y)
-  array = Array.new(x, y)
+
+def create_an_array(x)
+  array = ["#{x}", "#{x}", "#{x}", "#{x}"]
 end
 
 def add_element_to_end_of_array(array, element)
