@@ -1,7 +1,8 @@
 def create_an_empty_array
   Array.new
 end
-
+x = 4
+y = "yes"
 def create_an_array(x, y)
   array = Array.new(x, y)
 end
