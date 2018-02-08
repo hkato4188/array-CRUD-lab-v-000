@@ -1,5 +1,5 @@
-def create_an_empty_array
-  Array.new
+def create_an_empty_array(*p)
+  Array.new(*p)
 end
 
 def create_an_array
